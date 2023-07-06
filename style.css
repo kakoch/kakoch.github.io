@@ -1,0 +1,18 @@
+body{
+    background: rgb(108, 206, 28);
+}
+main{
+    background: rgb(28, 206, 206);
+}
+nav{
+    display: flex;
+}
+.img-foto{
+    width: 100px;
+    height: 100px;
+}
+.div-table-redes img{
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+}
