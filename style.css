@@ -1,3 +1,4 @@
+/*profile*/
 body{
     background-image: url(1555167.jpg);
     background-repeat: no-repeat;
@@ -106,12 +107,56 @@ hr{
     font-size: 15px;
     font-weight: bold;
 }
+.div-formacao tr th{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.ads {
+    font-weight: none;
+    font-size: 14px;
+}
 footer{
     align-items: center;
     text-align: center;
     color: white;
     margin-top: 2px;
 }
+
+/*index*/
+
+.body-index{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.main-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile{
+    height: 50px;
+    width: 400px;
+}
+.main-index button{
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(148, 156, 250);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.footer-index{
+    margin-left: -150px;
+    align-items: center;
+}
+
 @media screen and (max-width: 800px){
     body{
         /*display: flex;*/
