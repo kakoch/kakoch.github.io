@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ViaCEP Webservice</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <form method="get" action=".">
+        <label>Cep:
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);" /></label><br />
+        <label>Rua:
+        <input name="rua" type="text" id="rua" readonly disabled/></label><br />
+        <label>Bairro:
+        <input name="bairro" type="text" id="bairro" readonly disabled/></label><br />
+        <label>Cidade:
+        <input name="cidade" type="text" id="cidade"  readonly disabled/></label><br />
+        <label>Estado:
+        <input name="uf" type="text" id="uf" readonly disabled/></label><br />
+        <label>IBGE:
+        <input name="ibge" type="text" id="ibge" readonly disabled/></label><br />
+        <label>DDD:
+        <input name="ddd" type="text" id="ddd" readonly disabled/></label><br />
+        <label>Complemento:
+        <input name="complemento" type="text" id="complemento" readonly disabled/></label><br />
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
