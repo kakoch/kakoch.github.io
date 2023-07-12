@@ -139,6 +139,14 @@ footer{
     height: 50px;
     width: 400px;
 }
+.main-index table{
+    display: flex;
+}
+.main-index thead tr{
+    font-size: 18px;
+    font-weight: bolder;
+    color:rgb(148, 156, 250);
+}
 .main-index button{
     height: 30px;
     width: 150px;
@@ -179,9 +187,6 @@ footer{
         flex-direction: row-reverse;
         width: auto;
         align-items: flex-start;
-    }
-    .foto{
-       
     }
     .img-foto{
         width: 150px;
