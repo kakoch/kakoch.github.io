@@ -1,6 +1,7 @@
 function limpa_formulário_cep() {
     document.getElementById('rua').value = ("");
     document.getElementById('bairro').value = ("");
+    document.getElementById('complemento').value = ("");
     document.getElementById('cidade').value = ("");
     document.getElementById('uf').value = ("");
     document.getElementById('ibge').value = ("");
@@ -10,6 +11,7 @@ function get_info(conteudo) {
     if (!("erro" in conteudo)) {
         document.getElementById('rua').value = (conteudo.logradouro);
         document.getElementById('bairro').value = (conteudo.bairro);
+        document.getElementById('complemento').value = (conteudo.complemento);
         document.getElementById('cidade').value = (conteudo.localidade);
         document.getElementById('uf').value = (conteudo.uf);
         document.getElementById('ibge').value = (conteudo.ibge);
@@ -28,6 +30,7 @@ function pesquisacep(valor) {
         if (validacep.test(cep)) {
             document.getElementById('rua').value = "...";
             document.getElementById('bairro').value = "...";
+            document.getElementById('complemento').value = "...";
             document.getElementById('cidade').value = "...";
             document.getElementById('uf').value = "...";
             document.getElementById('ibge').value = "...";
