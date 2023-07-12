@@ -34,6 +34,26 @@ const exerc2_2 = document.getElementById('exerc2-2');
 const exerc2_3 = document.getElementById('exerc2-3');
 const exerc2_4 = document.getElementById('exerc2-4');
 const exerc2_5 = document.getElementById('exerc2-5');
+const exerc3_1 = document.getElementById('exerc3-1');
+const exerc3_2 = document.getElementById('exerc3-2');
+const exerc3_3 = document.getElementById('exerc3-3');
+const exerc3_4 = document.getElementById('exerc3-4');
+const exerc3_5 = document.getElementById('exerc3-5');
+const exerc3_6 = document.getElementById('exerc3-6');
+const exerc3_7 = document.getElementById('exerc3-7');
+const exerc3_8 = document.getElementById('exerc3-8');
+const exerc3_9 = document.getElementById('exerc3-9');
+const exerc3_10 = document.getElementById('exerc3-10');
+const exerc3_11 = document.getElementById('exerc3-11');
+const exerc3_12 = document.getElementById('exerc3-12');
+const exerc3_13 = document.getElementById('exerc3-13');
+const exerc3_14 = document.getElementById('exerc3-14');
+const exerc3_15 = document.getElementById('exerc3-15');
+const exerc3_16 = document.getElementById('exerc3-16');
+const exerc3_17 = document.getElementById('exerc3-17');
+const exerc3_18 = document.getElementById('exerc3-18');
+const exerc3_19 = document.getElementById('exerc3-19');
+const exerc3_20 = document.getElementById('exerc3-20');
 //eventListeners
 profile.addEventListener('click', profileRe);
 exerc1.addEventListener('click', exercicio1);
@@ -46,6 +66,26 @@ exerc2_2.addEventListener('click', exercicio2_2);
 exerc2_3.addEventListener('click', exercicio2_3);
 exerc2_4.addEventListener('click', exercicio2_4);
 exerc2_5.addEventListener('click', exercicio2_5);
+exerc3_1.addEventListener('click', exercicio3_1);
+exerc3_2.addEventListener('click', exercicio3_2);
+exerc3_3.addEventListener('click', exercicio3_3);
+exerc3_4.addEventListener('click', exercicio3_4);
+exerc3_5.addEventListener('click', exercicio3_5);
+exerc3_6.addEventListener('click', exercicio3_6);
+exerc3_7.addEventListener('click', exercicio3_7);
+exerc3_8.addEventListener('click', exercicio3_8);
+exerc3_9.addEventListener('click', exercicio3_9);
+exerc3_10.addEventListener('click', exercicio3_10);
+exerc3_11.addEventListener('click', exercicio3_11);
+exerc3_12.addEventListener('click', exercicio3_12);
+exerc3_13.addEventListener('click', exercicio3_13);
+exerc3_14.addEventListener('click', exercicio3_14);
+exerc3_15.addEventListener('click', exercicio3_15);
+exerc3_16.addEventListener('click', exercicio3_16);
+exerc3_17.addEventListener('click', exercicio3_17);
+exerc3_18.addEventListener('click', exercicio3_18);
+exerc3_19.addEventListener('click', exercicio3_19);
+exerc3_20.addEventListener('click', exercicio3_20);
 
 function profileRe(){
     window.location.href = "profile.html";
@@ -119,3 +159,105 @@ function exercicio2_5() {
       alert(textoOriginal.replaceAll(/A/g, '4').replaceAll(/I/g, '1').replaceAll(/E/g, '3').replaceAll(/O/g, '0').replaceAll(/S/g, '5')); // Saída: "4 fr453 0r1g1n41"
     
 }
+function exercicio3_1(){
+    let numero = Math.abs(prompt("Insira um numero"))
+    if(numero < 0 || numero > 0){
+        if((numero % 2) < 1 ){
+            alert("O numero: " +numero+" é par!" )
+        }else{
+            alert("O numero: " +numero+" é impar!" )
+        }
+    }else{
+        alert("Só aceito numeros" )
+    }
+}
+function exercicio3_2(){
+    let numero = Math.abs(prompt("Insira o preço"))
+    alert(numero * 0.9)
+}
+function exercicio3_3(){
+    let numero = Math.abs(prompt("Insira um numero"))
+    /*if (numero <= 1) {
+        return alert("O numero: " +numero+" não é primo!" )
+      }
+      for (let i = 2; i < numero; i++) {
+        if (numero % i === 0) {
+          return alert("O numero: " +numero+" não é primo!" )
+        }
+      }
+    
+      return alert("O numero: " +numero+" é primo!" )*/
+    for (let i = 2; i <= Math.sqrt(numero); i++){
+        if(numero % i ===0){
+            return alert("O numero: " +numero+" não é primo!" )
+        }
+    }
+    return alert("O numero: " +numero+" é primo!" )
+}
+function exercicio3_4(){
+    let ano = Math.abs(prompt("Insira a sua idade "))
+    let dias = ano * 365
+    alert("Você tem: "+dias+ " de vida!" )
+}
+function exercicio3_5(){
+    let entrada = prompt("Insira o seu telefone com DDD ")
+    let ddd = entrada.substring(0,3)
+    let prim = entrada.substring(3,8)
+    let segu = entrada.substring(8, 12)
+    if(ddd.charAt(0) == '0'){
+        alert("(" +ddd+ ")" +prim+ "-" +segu)
+    }else{
+        let ddd = entrada.substring(0,2)
+        let prim = entrada.substring(2,7)
+        let segu = entrada.substring(7, 11)
+        alert("(" +ddd+ ")" +prim+ "-" +segu)
+    }
+}
+function exercicio3_6 (){
+    let numeros =[];
+    for(i = 1; i<=10; i++){
+        if(i % 2 === 0){
+            numeros.push(i)
+        }
+    }
+    alert(numeros)
+}
+function exercicio3_7 (){
+    let notas =[];
+
+    for(i = 1; i <= 3;i++){
+        let nota = Number(prompt("Insira a nota " +i))
+        if( nota >= 0 && nota <= 10){
+            notas.push(nota)
+        }else{
+            alert("Nota invalida" +i--);
+            
+        }
+    }
+    alert("media" +((notas[0] + notas[1]+ notas[3])/3))
+    
+}
+function exercicio3_8(){
+    
+}
+
+function exercicio3_9(){
+    let frase = prompt("Insira a palavra ")
+    let local = frase.search("a")
+    if(frase.search("a") >=0){
+        alert("A posição é: " +local)
+    }else{
+        alert("Não tem A")
+    }
+}
+function exercicio3_10(){}
+function exercicio3_11(){}
+function exercicio3_12(){}
+function exercicio3_13(){}
+function exercicio3_14(){}
+function exercicio3_15(){}
+function exercicio3_16(){}
+function exercicio3_17(){}
+function exercicio3_18(){}
+function exercicio3_19(){}
+function exercicio3_20(){}
