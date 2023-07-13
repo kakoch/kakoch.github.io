@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pesquisa Cep</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <form>
+        <div class="label-float">
+            <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisapais(this.value);"
+                placeholder=" " required />
+            <label>Nome:</label>
+        </div>
+        <div class="label-float">
+            <input name="name" type="text" id="name" readonly disabled placeholder=" " />
+            <label for="name">Nomes usados:</label>
+        </div>
+        <!--<div class="label-float">
+            <input name="bairro" type="text" id="bairro" readonly disabled placeholder=" " />
+            <label for="bairro">Bairro:</label>
+        </div>
+        <div class="label-float">
+            <input name="cidade" type="text" id="cidade" readonly disabled placeholder=" " />
+            <label for="cidade">Cidade:</label>
+        </div>
+        <div class="label-float">
+            <input name="uf" type="text" id="uf" readonly disabled placeholder=" " />
+            <label for="uf">Estado:</label>
+        </div>
+        <div class="label-float">
+            <input name="ibge" type="text" id="ibge" readonly disabled placeholder=" " />
+            <label for="ibge">IBGE:</label>
+        </div>
+        <div class="label-float">
+            <input name="ddd" type="text" id="ddd" readonly disabled placeholder=" " />
+            <label for="ddd">DDD:</label>
+        </div>
+        <div class="label-float">
+            <input name="complemento" type="text" id="complemento" readonly disabled placeholder=" " />
+            <label for="complemento">Complemento:</label>
+        </div>-->
+        <div><button onclick="limpa_formulário_cep()">Limpar</button></div>
+    </form>
+
+    <script>
+        document.getElementById(cep).addEventListener("blur",getCompleteAddress)
+        function getCompleteAddress(){
+            const formFields = document.querySelector("form").elements;
+            const url = 'https://restcountries.com/v3.1/name/${formFields[0].value}/?fullText=true';
+            fetch(url).then((resultRequest)=>{
+                return resultRequest.json();
+            })
+            .then((jsonRequest)=>{
+                
+                formFields[1].value = jsonRequest.name;
+            })
+        }
+
+    </script>
+</body>
+
+</html>

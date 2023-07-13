@@ -1,36 +1,38 @@
 /*profile*/
-body{
+body {
     background-image: url(1555167.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     margin-left: 10%;
     padding: 10px;
-    
-}
-header{
-    color:rgb(148, 156, 250);
-    text-shadow: 7px 7px 7px  rgb(38, 0, 255);
 
-    font-size: 22px;
+}
+
+header {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    align-items: center;
+    color: rgb(8, 28, 240);
+    text-shadow: 3px 2px 2px rgb(254, 253, 255);
+    font-size: 28px;
     font-weight: bold;
-    margin-left: 30%;
-
 
 }
-main{
+
+main {
     background: rgba(0, 16, 247, 0.548);
-    
-    margin-left: 2%;
     border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
     padding: 10px;
     width: 80%;
     display: flex;
 }
-nav{
+
+nav {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -40,7 +42,7 @@ nav{
     margin: 5px;
 }
 
-.img-foto{
+.img-foto {
     width: 150px;
     height: 150px;
     border: 5px rgb(172, 65, 65) solid;
@@ -52,10 +54,12 @@ nav{
     padding: 2px;
     margin-left: 10px;
 }
-.div-table-redes{
-    display: flex; 
+
+.div-table-redes {
+    display: flex;
 }
-.div-table-redes img{
+
+.div-table-redes img {
     width: 50px;
     height: 50px;
     border-radius: 8px;
@@ -65,35 +69,36 @@ nav{
     filter: brightness(100%);
     -webkit-filter: grayscale(20%);
 }
-.div-bio{
+
+.div-bio {
     align-items: center;
     text-align: justify;
     margin: 10px;
     width: 60%;
 }
-.div-bio h2{
+
+.div-bio h2 {
     align-items: center;
     text-align: justify;
-    color:rgb(201, 205, 255);
+    color: rgb(201, 205, 255);
     font-size: 36px;
     font-weight: bold;
 }
-.div-bio p{
-    color:rgb(201, 205, 255);
+
+.div-bio p {
+    color: rgb(201, 205, 255);
     font-size: 16px;
     font-weight: bold;
 }
-hr{
+
+hr {
     margin: 8px;
     width: 4px;
     background-color: white;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
-.div-formacao{
+
+.div-formacao {
     display: flex;
     text-align: justify;
     margin: 10px;
@@ -103,112 +108,148 @@ hr{
     flex-direction: row;
     width: 20%;
     align-items: center;
-    color:rgb(201, 205, 255);
+    color: rgb(201, 205, 255);
     font-size: 15px;
     font-weight: bold;
 }
-.div-formacao tr th{
+
+.div-formacao tr th {
     font-weight: bolder;
     font-size: 20px;
 }
+
 .ads {
     font-weight: none;
     font-size: 14px;
 }
-footer{
+
+footer {
     align-items: center;
     text-align: center;
     color: white;
-    margin-top: 2px;
+
 }
 
 /*index*/
 
-.body-index{
+.body-index {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+
 }
-.main-index{
+
+.main-index {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 10px 100px rgb(245, 238, 238);
 }
-#profile{
+
+#profile {
     height: 50px;
     width: 400px;
 }
-.main-index table{
+
+.main-index table {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-index table th {
+    font-size: 25px;
+}
+
+.main-index table {
     display: flex;
 }
-.main-index thead tr{
+
+.main-index thead tr {
     font-size: 18px;
     font-weight: bolder;
-    color:rgb(148, 156, 250);
+    color: rgb(177, 183, 243);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.main-index button{
+
+.main-index button {
     height: 30px;
     width: 150px;
     font-size: 20px;
     font-weight: bolder;
-    color:rgb(148, 156, 250);
+    color: rgb(148, 156, 250);
     border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    border: 2px solid rgb(148, 156, 250);
 }
 
-.footer-index{
-    margin-left: -150px;
+.main-index button:active {
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    background: rgb(148, 156, 250);
+}
+
+.footer-index {
+    width: 250px;
     align-items: center;
+    border-radius: 0px 0px 5px 5px;
+    background: rgba(0, 16, 247, 0.548);
+    padding: 2px;
 }
 
-@media screen and (max-width: 800px){
-    body{
+@media screen and (max-width: 800px) {
+    body {
         /*display: flex;*/
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
-        margin: 0%;       
+        margin: 0%;
     }
-    header{
+
+    header {
         font-size: 18px;
         width: 100%;
     }
-    main{
+
+    main {
         width: 100%;
         flex-direction: column;
     }
-    nav{
+
+    nav {
         display: inline-flex;
         flex-wrap: nowrap;
         flex-direction: row-reverse;
         width: auto;
         align-items: flex-start;
     }
-    .img-foto{
+
+    .img-foto {
         width: 150px;
         height: 150px;
         margin-left: 10%;
     }
 
-    .div-table-redes img{
+    .div-table-redes img {
         width: 30px;
         height: 30px;
     }
-    .div-bio{
+
+    .div-bio {
         align-items: center;
         text-align: justify;
         width: 90%;
         padding: 5px;
     }
-    hr{
+
+    hr {
         width: 90%;
         justify-content: flex-end;
     }
-    .div-formacao{
+
+    .div-formacao {
         display: flex;
         text-align: justify;
         flex-wrap: wrap;
@@ -218,7 +259,8 @@ footer{
         justify-content: flex-start;
         align-items: baseline;
     }
-    footer{
+
+    footer {
         margin-top: 2px;
         width: 100%;
     }

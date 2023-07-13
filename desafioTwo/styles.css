@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #c200fd;
+}
+
+form {
+    background-color: #6fb9ff98;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: 0 10px 1000px rgb(2, 48, 255);
+
+}
+
+.label-float {
+    position: relative;
+    padding-top: 13px;
+}
+
+.label-float input {
+    color: #8a2be2;
+    border: 0;
+    border-bottom: 4px solid #8a2be2;
+    outline: none;
+    width: 86%;
+    font-size: 20px;
+    transition: all .4s ease-in;
+    border-radius: 5px;
+    margin: 0px 0px 20px 0px;
+    background-color: #fff;
+    padding-left: 50px;
+}
+
+.label-float input:focus {
+    border-bottom: 4px solid red;
+}
+
+.label-float input::placeholder {
+    color: transparent;
+}
+
+.label-float label {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #8a2be2;
+    margin-top: 18px;
+    transition: all .4s ease-in;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.label-float input:required:invalid:disabled+label {}
+
+.label-float input:focus:required:invalid:disabled {
+    border-bottom: 3px solid red;
+}
+
+.label-float input:required:invalid:disabled+label:before {
+    content: '*';
+}
+
+.label-float input:focus+label,
+.label-float input:not(:placeholder-shown)+label {
+    font-size: 15px;
+    margin-top: -5px;
+    color: #fff;
+}
+
+button {
+    color: #8a2be2;
+    width: 100%;
+    border: 3px solid #8a2be2;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px #8a2be2;
+}
+
+button:active {
+    color: #fff;
+    width: 100%;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #8a2be2;
+    box-shadow: 0 2px 4px #fff;
+}

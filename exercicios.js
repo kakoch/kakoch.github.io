@@ -24,6 +24,7 @@ Crie um script que substitua as letras, conforme:
 */
 // get ids buttons
 const profile = document.getElementById('profile');
+const desafio_cep = document.getElementById('desafiocep');
 const exerc1 = document.getElementById('exerc1');
 const exerc2 = document.getElementById('exerc2');
 const exerc3 = document.getElementById('exerc3');
@@ -56,6 +57,7 @@ const exerc3_19 = document.getElementById('exerc3-19');
 const exerc3_20 = document.getElementById('exerc3-20');
 //eventListeners
 profile.addEventListener('click', profileRe);
+desafio_cep.addEventListener('click', desafiocep);
 exerc1.addEventListener('click', exercicio1);
 exerc2.addEventListener('click', exercicio2);
 exerc3.addEventListener('click', exercicio3);
@@ -89,6 +91,9 @@ exerc3_20.addEventListener('click', exercicio3_20);
 
 function profileRe(){
     window.location.href = "profile.html";
+}
+function desafiocep(){
+    window.location.href = "desafioOne/index.html";
 }
 function exercicio1() {
     let notaUm = Math.abs(prompt("Insira a nota 1"))
