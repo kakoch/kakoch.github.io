@@ -2,47 +2,167 @@
 <html>
 
 <head>
-    <title>Pesquisa Cep</title>
+    <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Pesquisa Pais</title>
 </head>
 
 <body>
     <form>
-        <div class="label-float">
-            <input name="cep" type="text" id="cep" value=""  onblur="getCompleteAddress(this.value);"
-                placeholder=" " required />
-            <label>Cep:</label>
+        <div class="form-column">
+            <div class="label-float">
+                <input name="cep" type="text" id="cep" value="" onblur="getCompleteAddress(this.value);" placeholder=" "
+                    required />
+                <label for="nameCommon">Digite o nome do pais</label>
+            </div>
         </div>
-        <div class="label-float">
-            <input name="rua" type="text" id="rua" readonly disabled placeholder=" " />
-            <label for="rua">Nome abreviado:</label>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="nameOfficial" name="nameOfficial" placeholder=" "readonly disabled>
+                <label for="nameOfficial">Nome principal:</label>
+            </div>
         </div>
-        <div class="label-float">
-            <input name="bairro" type="text" id="nomeoficial" readonly disabled placeholder=" " />
-            <label for="bairro">Nome oficial:</label>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="nameOfficial" name="nameOfficial" placeholder=" "readonly disabled>
+                <label for="nameOfficial">Nome abreviado:</label>
+            </div>
         </div>
-        <div class="label-float">
-            <input name="cidade" type="text" id="area" readonly disabled placeholder=" " />
-            <label for="cidade">Area:</label>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="nameOfficial" name="nameOfficial" placeholder=" "readonly disabled>
+                <label for="nameOfficial">Nome Oficial:</label>
+            </div>
         </div>
-        <div class="label-float">
-            <input name="uf" type="text" id="uf" readonly disabled placeholder=" " />
-            <label for="uf">População:</label>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="tld" name="tld" placeholder=" "readonly disabled>
+                <label for="tld">Dominio/TLD:</label>
+            </div>
         </div>
-        <div class="label-float">
-            <input name="ibge" type="text" id="ibge" readonly disabled placeholder=" " />
-            <label for="ibge">IBGE:</label>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="independent" name="independent" placeholder=" "readonly disabled>
+                <label for="independent">Independente:</label>
+            </div>
         </div>
-        <div class="label-float">
-            <input name="ddd" type="text" id="ddd" readonly disabled placeholder=" " />
-            <label for="ddd">DDD:</label>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="status" name="status" placeholder=" "readonly disabled>
+                <label for="status">Status:</label>
+            </div>
         </div>
-        <div class="label-float">
-            <input name="complemento" type="text" id="complemento" readonly disabled placeholder=" " />
-            <label for="complemento">Complemento:</label>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="unMember" name="unMember" placeholder=" "readonly disabled>
+                <label for="unMember">UN Member:</label>
+            </div>
         </div>
-        <div><button onclick="limpa_formulário_cep()">Limpar</button></div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="currencyName" name="currencyName" placeholder=" "readonly disabled>
+                <label for="currencyName">Moeda - Nome:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="currencySymbol" name="currencySymbol" placeholder=" "readonly disabled>
+                <label for="currencySymbol">Moeda - Símbolo:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="capital" name="capital" placeholder=" "readonly disabled>
+                <label for="capital">Capital:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="region" name="region" placeholder=" "readonly disabled>
+                <label for="region">Região:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="subregion" name="subregion" placeholder=" "readonly disabled> 
+                <label for="subregion">Sub-região:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="language" name="language" placeholder=" "readonly disabled>
+                <label for="language">Idioma:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="latlng" name="latlng" placeholder=" "readonly disabled>
+                <label for="latlng">Coordenadas:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="borders" name="borders" placeholder=" "readonly disabled>
+                <label for="borders">Fronteiras:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="area" name="area" placeholder=" "readonly disabled>
+                <label for="area">Área:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="population" name="population" placeholder=" "readonly disabled>
+                <label for="population">População:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="timezones" name="timezones" placeholder=" "readonly disabled>
+                <label for="timezones">Fusos Horários:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="carSigns" name="carSigns" placeholder=" "readonly disabled>
+                <label for="carSigns">Placas de Carro:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="carSide" name="carSide" placeholder=" "readonly disabled>
+                <label for="carSide">Lado do Volante:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="startOfWeek" name="startOfWeek" placeholder=" "readonly disabled>
+                <label for="startOfWeek">Início da Semana:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="capitalLatlng" name="capitalLatlng" placeholder=" "readonly disabled>
+                <label for="capitalLatlng">Coordenadas da Capital:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="postalCodeFormat" name="postalCodeFormat" placeholder=" "readonly disabled>
+                <label for="postalCodeFormat">Formato do CEP:</label>
+            </div>
+        </div>
+        <div class="form-column">
+            <div class="label-float">
+                <input type="text" id="postalCodeRegex" name="postalCodeRegex" placeholder=" "readonly disabled>
+                <label for="postalCodeRegex">Regex do CEP:</label>
+            </div>
+        </div>
+
+        <button onclick="limpa_formulário_pais()">Limpar pesquisa</button>
     </form>
 
     <script src="script.js"></script>

@@ -9,10 +9,22 @@ form {
     padding: 20px;
     border-radius: 5px;
     margin: 0 auto;
-    width: 400px;
+    width: 80%;
     box-shadow: 0 10px 1000px rgb(2, 48, 255);
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 }
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+}
+.form-column:first-child{
+    background-color: rgba(195, 0, 255, 0.336);
+    border-radius: 30%;
+}
+
 
 .label-float {
     position: relative;
@@ -24,13 +36,14 @@ form {
     border: 0;
     border-bottom: 4px solid #8a2be2;
     outline: none;
-    width: 86%;
-    font-size: 20px;
+    font-size: 15px;
     transition: all .4s ease-in;
     border-radius: 5px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 3px 0px;
     background-color: #fff;
-    padding-left: 50px;
+    padding-left: 5px;
+    width: 320px;
+    height: 25px;
 }
 
 .label-float input:focus {
@@ -47,7 +60,7 @@ form {
     top: 0;
     left: 0;
     color: #8a2be2;
-    margin-top: 18px;
+    margin-top: 14px;
     transition: all .4s ease-in;
     font-weight: bolder;
     padding-left: 10px;
