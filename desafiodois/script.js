@@ -1,4 +1,5 @@
 function getCompleteAddress(value) {
+    const aaa = document.getElementsByTagName('body')[0];
     const formFields = document.querySelector("form").elements;
     if (formFields[0] != undefined) {
       const url = `https://restcountries.com/v3.1/name/${value}/`;
@@ -10,6 +11,10 @@ function getCompleteAddress(value) {
           return resultRequest.json();
         })
         .then((jsonRequest) => {
+          let body = document.body;
+          let bg = jsonRequest[0].flags.png
+          body.style.backgroundImage = 'url(' + bg + ')';
+          body.style.backgroundSize = 'cover';
           formFields[1].value = jsonRequest[0].altSpellings[1];
           formFields[2].value = jsonRequest[0].altSpellings[0];
           for (key in jsonRequest[0].name.nativeName) {
@@ -43,6 +48,8 @@ function getCompleteAddress(value) {
           formFields[22].value = jsonRequest[0].capitalInfo.latlng;
           formFields[23].value = jsonRequest[0].postalCode.format;
           formFields[24].value = jsonRequest[0].postalCode.regex;
+          
+          
         })
         .catch((error) => {
           alert("Erro na requisição:", error);
