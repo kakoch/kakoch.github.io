@@ -1,6 +1,6 @@
 /*profile*/
 body {
-    background-image: url(1555167.jpg);
+    background-image: url(img/1555167.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     margin-left: 10%;
@@ -59,9 +59,29 @@ nav {
     display: flex;
 }
 
+.buttonMenu {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin-left: 55px;
+    padding: 2px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(8, 28, 240);
+    background-color: rgb(201, 205, 255);
+    font-weight: bolder;
+    border: 2px solid rgb(8, 28, 240);
+}
+
+.buttonMenu:active {
+    background-color: rgb(8, 28, 240);
+    color: rgb(201, 205, 255);
+    border: 2px solid rgb(201, 205, 255);
+}
+
 .div-table-redes img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 8px;
     margin-left: 55px;
     filter: grayscale(20%);
@@ -159,8 +179,9 @@ footer {
     flex-direction: column;
 }
 
-.main-index table th {
-    font-size: 25px;
+.main-index table td {
+    width: 100px;
+    height: 10px;
 }
 
 .main-index table {
@@ -175,7 +196,7 @@ footer {
 }
 
 .main-index button {
-    height: 30px;
+    height: 60px;
     width: 150px;
     font-size: 20px;
     font-weight: bolder;
