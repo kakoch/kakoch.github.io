@@ -2,23 +2,20 @@
 <html>
 
 <head>
-    <title>Pesquisa Cep</title>
+    <title>Temperatura</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
     <form>
-        <div class="label-float">
-            <input name="cep" type="text" id="cep" value=""  onblur="getCompleteAddress(this.value);"
-                placeholder=" " required />
-            <label>Cep:</label>
+        <!--<div class="label-float">
+            <input name="cep" type="text" id="cep" value="" onblur="getCompleteAddress();" placeholder=" " />
+            <label>Insira a temperatura</label>
+        </div>-->
+        <div>
+            <button onclick="getCompleteAddress()">Limpar</button>
         </div>
-        <div class="label-float">
-            <input name="complemento" type="text" id="complemento" readonly disabled placeholder=" " />
-            <label for="complemento">Complemento:</label>
-        </div>
-        <div><button onclick="limpa_formulário_cep()">Limpar</button></div>
     </form>
 
     <script src="script.js"></script>
