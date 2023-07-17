@@ -2,6 +2,7 @@
 const profile = document.getElementById('profile');
 const desafio_cep = document.getElementById('desafiocep');
 const desafio_pais = document.getElementById('desafio2');
+const desafio_temp = document.getElementById('desafio3');
 const exerc1 = document.getElementById('exerc1');
 const exerc2 = document.getElementById('exerc2');
 const exerc3 = document.getElementById('exerc3');
@@ -36,6 +37,7 @@ const exerc3_20 = document.getElementById('exerc3-20');
 profile.addEventListener('click', profileRe);
 desafio_cep.addEventListener('click', desafiocep);
 desafio_pais.addEventListener('click', desafiopais);
+desafio_temp.addEventListener('click', desafioTemp);
 exerc1.addEventListener('click', exercicio1);
 exerc2.addEventListener('click', exercicio2);
 exerc3.addEventListener('click', exercicio3);
@@ -76,6 +78,9 @@ function desafiocep() {
 }
 function desafiopais() {
     window.location.href = "desafiodois/index.html";
+}
+function desafioTres() {
+    window.location.href = "desafiotres/index.html";
 }
 
 function exercicio1() {
