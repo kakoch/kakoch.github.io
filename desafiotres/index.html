@@ -3,21 +3,44 @@
 
 <head>
     <title>Temperatura</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
     <form>
-        <!--<div class="label-float">
-            <input name="cep" type="text" id="cep" value="" onblur="getCompleteAddress();" placeholder=" " />
-            <label>Insira a temperatura</label>
-        </div>-->
-        <div>
-            <button onclick="getCompleteAddress()">Limpar</button>
+        <div class="label-float">
+            <input name="celcius" type="text" id="celcius" value="" placeholder=" " required />
+            <label for="celcius">Digite uma temperatura em Celcius:</label>
         </div>
+        <div class="label-float">
+            <input name="convertida" type="text" id="convertida" readonly disabled placeholder=" " />
+            <label for="convertida">Temperatura convertida para Fahrenheit:</label>
+        </div>
+        <div class="label-float">
+            <input name="latitude" type="text" id="latitude" readonly disabled placeholder=" " />
+            <label for="latitude">Latitude atual:</label>
+        </div>
+        <div class="label-float">
+            <input name="longitude" type="text" id="longitude" readonly disabled placeholder=" " />
+            <label for="longitude">Longitude atual:</label>
+        </div>
+        <div class="label-float">
+            <input name="atual" type="text" id="atual" readonly disabled placeholder=" " />
+            <label for="atual">Temperatura atual em ºF:</label>
+        </div>
+        <div class="label-float">
+            <input name="status" type="text" id="status" readonly disabled placeholder=" " />
+            <label for="status">Status:</label>
+        </div>
+        <div class="label-float">
+            <input name="esta" type="text" id="esta" readonly disabled placeholder=" " />
+            <label for="esta">Você está em:</label>
+        </div>
+        <div><button type="button" class="btn" onclick="getCurrentPosition()">Converter</button></div>
+        <div><button type="button" class="btn" onclick="limpa_formulário()">Limpar</button></div>
     </form>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 
