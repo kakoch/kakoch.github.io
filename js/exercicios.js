@@ -79,7 +79,7 @@ function desafiocep() {
 function desafiopais() {
     window.location.href = "desafiodois/index.html";
 }
-function desafioTres() {
+function desafioTemp() {
     window.location.href = "desafiotres/index.html";
 }
 
