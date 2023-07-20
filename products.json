@@ -1,0 +1,1056 @@
+{
+    "categorias": {
+        "bebida": {
+            "refrigerantes": [
+                {
+                    "id": "1",
+                    "nome": "Coca-Cola",
+                    "descricao": "Coca-Cola sabor original é uma bebida carbonatada feita a partir de água gaseificada, açúcar, extrato de noz de cola, cafeína, corante caramelo IV, acidulante ácido fosfórico e aroma natural. Cada 200 ml contém aproximadamente 85 kcal e 10 mg de sódio. É uma das bebidas mais populares e consumidas em todo o mundo, conhecida por seu sabor único e refrescante.",
+                    "valor": "3,49",
+                    "unidade": "ml",
+                    "quantidade": "350",
+                    "imagem": "https://media.istockphoto.com/id/458464735/pt/foto/coca-cola.jpg?s=2048x2048&w=is&k=20&c=OJClnoSpdjy_RBVQPskRW29j1n7WFTauRl7U4ZKLOZY="
+                },
+                {
+                    "id": "2",
+                    "nome": "Pepsi",
+                    "descricao": "Pepsi é uma bebida carbonatada à base de cola, similar à Coca-Cola, mas com seu próprio sabor característico. A fórmula inclui água gaseificada, açúcar, extrato de cola, cafeína, acidulante ácido fosfórico e aroma natural. Cada 200 ml contém aproximadamente 89 kcal e 9 mg de sódio.",
+                    "valor": "3,29",
+                    "unidade": "ml",
+                    "quantidade": "350",
+                    "imagem": "https://media.istockphoto.com/id/459396911/pt/foto/pepsi-pode-com-got%C3%ADculas-de-%C3%A1gua.jpg?s=2048x2048&w=is&k=20&c=QePAF55GUm0zkLysxl2ekn-n34iX3TDS00bGrH41pQY="
+                },
+                {
+                    "id": "3",
+                    "nome": "Guaraná",
+                    "descricao": "Guaraná é uma bebida brasileira famosa pelo sabor adocicado e aroma característico do fruto de guaraná. É uma bebida carbonatada que contém água gaseificada, açúcar, extrato de guaraná, cafeína, acidulante ácido fosfórico e aroma natural. Cada 200 ml contém aproximadamente 80 kcal e 9 mg de sódio.",
+                    "valor": "2,99",
+                    "unidade": "ml",
+                    "quantidade": "350",
+                    "imagem": "https://www.shutterstock.com/image-photo/rio-de-janeiro-rj-brazil-600w-2299777743.jpg"
+                },
+                {
+                    "id": "4",
+                    "nome": "Sprite",
+                    "descricao": "Sprite é uma bebida gasificada de limão, conhecida por seu sabor refrescante e ausência de cafeína. É composta por água gaseificada, açúcar, acidulante ácido cítrico, regulador de acidez citrato de sódio, aroma natural de limão e antioxidante ácido ascórbico. Cada 200 ml contém aproximadamente 80 kcal e 20 mg de sódio.",
+                    "valor": "2,99",
+                    "unidade": "ml",
+                    "quantidade": "350",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sprite.jpg"
+                },
+                {
+                    "id": "5",
+                    "nome": "Fanta Laranja",
+                    "descricao": "Fanta Laranja é uma bebida gasosa de sabor a laranja, refrescante e com um toque cítrico. É composta por água gaseificada, açúcar, concentrado de suco de laranja, acidulante ácido cítrico, aroma natural de laranja e antioxidante ácido ascórbico. Cada 200 ml contém aproximadamente 79 kcal e 17 mg de sódio.",
+                    "valor": "2,79",
+                    "unidade": "ml",
+                    "quantidade": "350",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/fanta_laranja.jpg"
+                },
+                {
+                    "id": "23",
+                    "nome": "Dolly Guaraná",
+                    "descricao": "Dolly Guaraná é uma bebida gasosa à base de extrato natural de guaraná. Possui sabor adocicado e refrescante, sendo uma opção popular no Brasil. Cada 200 ml contém aproximadamente 84 kcal e 12 mg de sódio.",
+                    "valor": "1,99",
+                    "unidade": "ml",
+                    "quantidade": "350",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/dolly_guarana.jpg"
+                },
+                {
+                    "id": "24",
+                    "nome": "Água Mineral com Gás",
+                    "descricao": "Água Mineral com Gás é uma bebida refrescante que possui gás adicionado, proporcionando uma sensação de efervescência ao consumir. É uma ótima opção para acompanhar refeições e saciar a sede. Cada 500 ml contém 0 kcal e 30 mg de sódio.",
+                    "valor": "2,00",
+                    "unidade": "ml",
+                    "quantidade": "500",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/agua_mineral_com_gas.jpg"
+                },
+                {
+                    "id": "25",
+                    "nome": "Água Mineral sem Gás",
+                    "descricao": "Água Mineral sem Gás é uma bebida natural e refrescante, sem gás adicionado. Ideal para hidratação diária e consumo a qualquer momento. Cada 500 ml contém 0 kcal e 0 mg de sódio.",
+                    "valor": "1,50",
+                    "unidade": "ml",
+                    "quantidade": "500",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/agua_mineral_sem_gas.jpg"
+                },
+                {
+                    "id": "26",
+                    "nome": "H2OH",
+                    "descricao": "H2OH é uma bebida gasificada com sabores variados, proporcionando uma experiência refrescante. Disponível em diferentes opções de sabor, é composta por água gaseificada, açúcar e aromas naturais. Cada 350 ml contém aproximadamente 120 kcal e 25 mg de sódio.",
+                    "valor": "3,49",
+                    "unidade": "ml",
+                    "quantidade": "350",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/h2oh.jpg"
+                }
+            ],
+            "sucos": [
+                {
+                    "id": "6",
+                    "nome": "laranja",
+                    "descricao": "Suco de laranja natural, feito a partir do suco espremido de laranjas frescas. É uma bebida deliciosa, refrescante e rica em vitamina C. Cada 200 ml contém aproximadamente 88 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/suco_laranja.jpg"
+                },
+                {
+                    "id": "7",
+                    "nome": "uva",
+                    "descricao": "Suco de uva natural, feito a partir do suco prensado de uvas maduras. É uma bebida doce, saborosa e repleta de nutrientes. Cada 200 ml contém aproximadamente 154 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/suco_uva.jpg"
+                },
+                {
+                    "id": "8",
+                    "nome": "abacaxi",
+                    "descricao": "Suco de abacaxi natural, obtido a partir do suco espremido da fruta tropical abacaxi. É uma bebida doce, refrescante e cheia de sabor. Cada 200 ml contém aproximadamente 120 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/suco_abacaxi.jpg"
+                },
+                {
+                    "id": "9",
+                    "nome": "Limão",
+                    "descricao": "Suco de limão natural, feito a partir do suco espremido de limões frescos. É uma bebida ácida, refrescante e rica em vitamina C. Cada 200 ml contém aproximadamente 60 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/suco_limao.jpg"
+                },
+                {
+                    "id": "10",
+                    "nome": "Maracuja",
+                    "descricao": "Suco de maracujá natural, obtido a partir do suco das polpas da fruta maracujá. É uma bebida levemente ácida, refrescante e rica em nutrientes. Cada 200 ml contém aproximadamente 78 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/suco_maracuja.jpg"
+                },
+                {
+                    "id": "11",
+                    "nome": "Goiaba",
+                    "descricao": "Suco de goiaba natural, feito a partir do suco das polpas da fruta goiaba. É uma bebida doce, refrescante e repleta de nutrientes como vitamina C e fibras. Cada 200 ml contém aproximadamente 135 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/suco_goiaba.jpg"
+                },
+                {
+                    "id": "12",
+                    "nome": "Tangerina",
+                    "descricao": "Suco de tangerina natural, feito a partir do suco espremido de tangerinas frescas. É uma bebida cítrica, refrescante e rica em vitamina C. Cada 200 ml contém aproximadamente 80 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/suco_tangerina.jpg"
+                },
+                {
+                    "id": "13",
+                    "nome": "Graviola",
+                    "descricao": "Suco de graviola natural, obtido a partir do suco das polpas da fruta graviola. É uma bebida suave, levemente doce e refrescante. Cada 200 ml contém aproximadamente 126 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/suco_graviola.jpg"
+                }
+            ],
+            "cafe": [
+                {
+                    "id": "14",
+                    "nome": "expresso",
+                    "descricao": "Café expresso é uma bebida intensa e concentrada, preparada ao forçar água quente através de grãos de café finamente moídos. É a base de várias outras bebidas de café. Cada 200 ml contém aproximadamente 2 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cafe_expresso.jpg"
+                },
+                {
+                    "id": "15",
+                    "nome": "cappuccino",
+                    "descricao": "Cappuccino é uma bebida italiana feita a partir de café expresso, leite vaporizado e espuma de leite. É conhecido por seu sabor rico e cremoso. Cada 200 ml contém aproximadamente 89 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cafe_cappuccino.jpg"
+                },
+                {
+                    "id": "16",
+                    "nome": "Mocha",
+                    "descricao": "Café Mocha é uma bebida de café que combina café expresso, leite vaporizado, chocolate e chantilly. É uma opção indulgente e saborosa para os amantes de café e chocolate. Cada 200 ml contém aproximadamente 102 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cafe_mocha.jpg"
+                },
+                {
+                    "id": "17",
+                    "nome": "Macchiato",
+                    "descricao": "Café Macchiato é uma bebida de café que consiste em uma dose de café expresso com uma pequena quantidade de leite vaporizado. É conhecido por seu sabor forte e marcante. Cada 200 ml contém aproximadamente 5 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cafe_macchiato.jpg"
+                },
+                {
+                    "id": "18",
+                    "nome": "Americano",
+                    "descricao": "Café Americano é uma bebida de café diluída, preparada ao adicionar água quente ao café expresso. É uma opção mais suave e menos intensa do que o café expresso puro. Cada 200 ml contém aproximadamente 4 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cafe_americano.jpg"
+                },
+                {
+                    "id": "19",
+                    "nome": "Vienna",
+                    "descricao": "Café Vienna é uma variação do cappuccino, preparado com café expresso, leite vaporizado e chantilly. É uma opção indulgente para os amantes de café. Cada 200 ml contém aproximadamente 120 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cafe_vienna.jpg"
+                },
+                {
+                    "id": "20",
+                    "nome": "Freddo",
+                    "descricao": "Café Freddo é uma bebida refrescante de café originária da Grécia. É preparado com café expresso resfriado ou gelado e servido com gelo. Cada 200 ml contém aproximadamente 8 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cafe_freddo.jpg"
+                },
+                {
+                    "id": "21",
+                    "nome": "Turco",
+                    "descricao": "Café Turco é uma forma tradicional de preparar café, onde o pó fino de café, água e açúcar (opcional) são fervidos juntos em uma pequena panela especial. Cada 200 ml contém aproximadamente 4 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cafe_turco.jpg"
+                }
+            ],
+            "cha": [
+                {
+                    "id": "22",
+                    "nome": "preto",
+                    "descricao": "Chá preto é uma bebida popular feita a partir das folhas da planta Camellia sinensis. É um chá mais oxidado, resultando em um sabor mais forte e encorpado. Cada 200 ml contém aproximadamente 2 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cha_preto.jpg"
+                },
+                {
+                    "id": "23",
+                    "nome": "verde",
+                    "descricao": "Chá verde é uma bebida saudável e refrescante feita a partir das folhas da planta Camellia sinensis. É conhecido por ser rico em antioxidantes e ter um sabor suave e levemente amargo. Cada 200 ml contém aproximadamente 2 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cha_verde.jpg"
+                },
+                {
+                    "id": "24",
+                    "nome": "de-camomila",
+                    "descricao": "Chá de camomila é uma infusão de flores de camomila, conhecida por suas propriedades calmantes e relaxantes. É uma opção popular para aliviar o estresse e melhorar o sono. Cada 200 ml contém aproximadamente 0 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cha_camomila.jpg"
+                },
+                {
+                    "id": "25",
+                    "nome": "Hibisco",
+                    "descricao": "Chá de hibisco é uma infusão feita a partir das flores do Hibiscus sabdariffa. É conhecido por seu sabor levemente ácido e por ser rico em antioxidantes. Cada 200 ml contém aproximadamente 0 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cha_hibisco.jpg"
+                },
+                {
+                    "id": "26",
+                    "nome": "Erva-cidreira",
+                    "descricao": "Chá de erva cidreira, também conhecido como chá de melissa, é uma infusão feita a partir das folhas da planta Melissa officinalis. É conhecido por suas propriedades calmantes e aroma suave. Cada 200 ml contém aproximadamente 0 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cha_erva_cidreira.jpg"
+                },
+                {
+                    "id": "27",
+                    "nome": "Capim-limao",
+                    "descricao": "Chá de capim-limão, também conhecido como chá de erva-cidreira brasileira, é uma infusão feita a partir das folhas da planta Cymbopogon citratus. É conhecido por seu sabor cítrico e propriedades relaxantes. Cada 200 ml contém aproximadamente 0 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cha_capim_limao.jpg"
+                },
+                {
+                    "id": "28",
+                    "nome": "Camomila",
+                    "descricao": "Chá de camomila é uma infusão de flores de camomila, conhecida por suas propriedades calmantes e relaxantes. É uma opção popular para aliviar o estresse e melhorar o sono. Cada 200 ml contém aproximadamente 0 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cha_camomila.jpg"
+                },
+                {
+                    "id": "29",
+                    "nome": "Gengibre",
+                    "descricao": "Chá de gengibre é uma infusão feita a partir das raízes de gengibre frescas ou secas. É conhecido por seu sabor picante e por suas propriedades anti-inflamatórias. Cada 200 ml contém aproximadamente 0 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cha_gengibre.jpg"
+                },
+                {
+                    "id": "30",
+                    "nome": "Hortela",
+                    "descricao": "Chá de hortelã é uma infusão feita a partir das folhas da planta Mentha spicata. É conhecido por seu sabor refrescante e propriedades digestivas. Cada 200 ml contém aproximadamente 0 kcal.",
+                    "valor": "8,00",
+                    "medida": "ml",
+                    "quantidade": "200",
+                    "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cha_hortela.jpg"
+                }
+            ]
+        }
+    },
+    "comida": {
+        "pizzas": [
+            {
+                "id": "31",
+                "nome": "margherita",
+                "descricao": "Pizza Margherita. Deliciosa pizza clássica italiana feita com molho de tomate, queijo mussarela fresco, manjericão e um fio de azeite. Uma combinação perfeita de sabores!",
+                "valor": "20,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pizza_margherita.jpg"
+            },
+            {
+                "id": "32",
+                "nome": "calabresa",
+                "descricao": "Pizza Calabresa. Uma pizza saborosa, coberta com generosas fatias de calabresa, queijo mussarela e molho de tomate. Um clássico que agrada a todos!",
+                "valor": "25,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pizza_calabresa.jpg"
+            },
+            {
+                "id": "33",
+                "nome": "quatro-queijos",
+                "descricao": "Pizza Quatro Queijos. Uma explosão de queijos deliciosos, com uma mistura perfeita de queijo mussarela, queijo gorgonzola, queijo provolone e parmesão. Irresistível!",
+                "valor": "30,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pizza_quatro_queijos.jpg"
+            },
+            {
+                "id": "34",
+                "nome": "Portuguesa",
+                "descricao": "Pizza Portuguesa. Uma pizza completa, com molho de tomate, queijo mussarela, presunto, ovos, cebola, azeitonas e pimentão. Saborosa e bem equilibrada!",
+                "valor": "28,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pizza_portuguesa.jpg"
+            },
+            {
+                "id": "35",
+                "nome": "Bacon",
+                "descricao": "Pizza de Bacon. Uma pizza irresistível, com generosas fatias de bacon crocante, queijo mussarela e molho de tomate. Um prazer para os amantes de bacon!",
+                "valor": "27,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pizza_bacon.jpg"
+            },
+            {
+                "id": "36",
+                "nome": "Frango-com-Catupiry",
+                "descricao": "Pizza de Frango com Catupiry. Uma combinação perfeita de frango desfiado, catupiry cremoso, queijo mussarela e molho de tomate. Uma verdadeira delícia!",
+                "valor": "29,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pizza_frango_catupiry.jpg"
+            },
+            {
+                "id": "37",
+                "nome": "Alho-e-Oleo",
+                "descricao": "Pizza de Alho e Óleo. Uma pizza simples e saborosa, com alho refogado, azeite de oliva e queijo mussarela. Um prazer para os amantes de alho!",
+                "valor": "25,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pizza_alho_oleo.jpg"
+            },
+            {
+                "id": "38",
+                "nome": "Berinjela",
+                "descricao": "Pizza de Berinjela. Uma pizza vegetariana deliciosa, com fatias de berinjela grelhadas, queijo mussarela, molho de tomate e azeitonas. Uma opção saudável e saborosa!",
+                "valor": "26,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pizza_berinjela.jpg"
+            },
+            {
+                "id": "39",
+                "nome": "Brocolis",
+                "descricao": "Pizza de Brócolis. Uma pizza leve e nutritiva, com brócolis frescos, queijo mussarela, molho de tomate e azeitonas. Perfeita para os apreciadores de brócolis!",
+                "valor": "28,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pizza_brocolis.jpg"
+            }
+        ],
+        "hamburgueres": [
+            {
+                "id": "40",
+                "nome": "tradicional",
+                "descricao": "Hambúrguer Tradicional. Um hambúrguer suculento feito com carne bovina, queijo, alface, tomate, cebola, picles e molho especial. O clássico dos clássicos!",
+                "valor": "15,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/hamburguer_tradicional.jpg"
+            },
+            {
+                "id": "41",
+                "nome": "cheddar",
+                "descricao": "Hambúrguer com Queijo Cheddar. Um hambúrguer saboroso com carne bovina, queijo cheddar derretido, alface, tomate, cebola e molho especial. Uma explosão de sabor!",
+                "valor": "18,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/hamburguer_cheddar.jpg"
+            },
+            {
+                "id": "42",
+                "nome": "vegetariano",
+                "descricao": "Hambúrguer Vegetariano. Um hambúrguer delicioso feito com uma suculenta patty vegetariana, alface, tomate, cebola, picles e molho especial. Uma opção saudável e saborosa!",
+                "valor": "17,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/hamburguer_vegetariano.jpg"
+            },
+            {
+                "id": "43",
+                "nome": "Frango",
+                "descricao": "Hambúrguer de Frango. Um hambúrguer leve e saboroso feito com filé de frango, queijo, alface, tomate, cebola, picles e molho especial. Uma opção mais leve!",
+                "valor": "16,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/hamburguer_frango.jpg"
+            },
+            {
+                "id": "44",
+                "nome": "Queijo-Brie",
+                "descricao": "Hambúrguer com Queijo Brie. Um hambúrguer sofisticado com carne bovina, queijo brie derretido, cebola caramelizada e rúcula. Uma explosão de sabores refinados!",
+                "valor": "19,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/hamburguer_queijo_brie.jpg"
+            },
+            {
+                "id": "45",
+                "nome": "Cogumelos",
+                "descricao": "Hambúrguer de Cogumelos. Um hambúrguer vegetariano saboroso feito com cogumelos grelhados, queijo, alface, tomate, cebola, picles e molho especial. Uma opção repleta de sabor!",
+                "valor": "20,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/hamburguer_cogumelos.jpg"
+            },
+            {
+                "id": "46",
+                "nome": "Carne-de-Cordeiro",
+                "descricao": "Hambúrguer de Carne de Cordeiro. Um hambúrguer requintado feito com carne de cordeiro, queijo, alface, tomate, cebola, picles e molho especial. Uma experiência gastronômica única!",
+                "valor": "21,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/hamburguer_carne_cordeiro.jpg"
+            },
+            {
+                "id": "47",
+                "nome": "Barbecue",
+                "descricao": "Hambúrguer Barbecue. Um hambúrguer delicioso com carne bovina, queijo, cebola caramelizada e molho barbecue. Uma combinação perfeita de sabores!",
+                "valor": "19,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/hamburguer_barbecue.jpg"
+            },
+            {
+                "id": "48",
+                "nome": "Vegano",
+                "descricao": "Hambúrguer Vegano. Um hambúrguer vegano saboroso feito com uma patty de origem vegetal, alface, tomate, cebola, picles e molho vegano. Uma opção saudável e deliciosa!",
+                "valor": "17,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/hamburguer_vegano.jpg"
+            }
+        ],
+        "massas": [
+            {
+                "id": "49",
+                "nome": "espaguete",
+                "descricao": "Espaguete à bolonhesa. Um prato clássico da culinária italiana, com macarrão espaguete servido com molho de carne à bolonhesa e queijo parmesão ralado. Uma explosão de sabores!",
+                "valor": "22,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/massa_espaguete_bolonhesa.jpg"
+            },
+            {
+                "id": "50",
+                "nome": "lasanha",
+                "descricao": "Lasanha à bolonhesa. Um prato reconfortante, com camadas de massa de lasanha intercaladas com molho de carne à bolonhesa, queijo mussarela e molho bechamel. Uma verdadeira delícia!",
+                "valor": "25,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/massa_lasanha_bolonhesa.jpg"
+            },
+            {
+                "id": "51",
+                "nome": "ravioli",
+                "descricao": "Ravióli de queijo. Deliciosos raviólis recheados com queijo, servidos com molho de tomate e queijo parmesão ralado. Um prato refinado e saboroso!",
+                "valor": "24,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/massa_ravioli_queijo.jpg"
+            },
+            {
+                "id": "52",
+                "nome": "Penne",
+                "descricao": "Penne ao molho de tomate. Um prato simples e saboroso, com macarrão penne servido com molho de tomate fresco, manjericão e queijo parmesão ralado. Uma opção clássica!",
+                "valor": "20,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/massa_penne_molho_tomate.jpg"
+            },
+            {
+                "id": "53",
+                "nome": "Fettuccine",
+                "descricao": "Fettuccine ao molho branco. Um prato elegante e cremoso, com macarrão fettuccine servido com um delicioso molho branco à base de creme de leite e queijo parmesão ralado. Um verdadeiro deleite!",
+                "valor": "23,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/massa_fettuccine_molho_branco.jpg"
+            },
+            {
+                "id": "54",
+                "nome": "Canelloni",
+                "descricao": "Canelloni de ricota e espinafre. Deliciosos canelloni recheados com uma mistura de ricota e espinafre, servidos com molho de tomate e queijo parmesão ralado. Um prato saboroso e nutritivo!",
+                "valor": "24,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/massa_canelloni_ricota_espinafre.jpg"
+            },
+            {
+                "id": "55",
+                "nome": "Rigatoni",
+                "descricao": "Rigatoni à carbonara. Um prato tradicional da culinária italiana, com macarrão rigatoni servido com um delicioso molho à base de ovos, queijo pecorino e pancetta. Uma experiência gastronômica única!",
+                "valor": "22,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/massa_rigatoni_carbonara.jpg"
+            },
+            {
+                "id": "56",
+                "nome": "Tortellini",
+                "descricao": "Tortellini ao molho de queijo. Uma opção deliciosa e reconfortante, com tortellini recheados com queijo, servidos com um cremoso molho de queijo e nozes. Uma combinação perfeita!",
+                "valor": "26,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/massa_tortellini_molho_queijo.jpg"
+            },
+            {
+                "id": "57",
+                "nome": "Gnocchi",
+                "descricao": "Gnocchi ao molho pesto. Um prato simples e delicioso, com gnocchi de batata servido com um fresco e aromático molho pesto de manjericão. Uma opção leve e saborosa!",
+                "valor": "21,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/massa_gnocchi_molho_pesto.jpg"
+            }
+        ],
+        "saladas": [
+            {
+                "id": "58",
+                "nome": "grega",
+                "descricao": "Salada Grega. Uma salada refrescante e saborosa, com alface, tomate, pepino, cebola roxa, azeitonas, queijo feta e temperada com azeite de oliva e orégano. Uma combinação perfeita de sabores!",
+                "valor": "18,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/salada_grega.jpg"
+            },
+            {
+                "id": "59",
+                "nome": "ceasar",
+                "descricao": "Salada Caesar. Uma salada clássica, com alface romana, croutons, queijo parmesão ralado, tiras de frango grelhado e molho caesar. Uma explosão de sabores!",
+                "valor": "20,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/salada_caesar.jpg"
+            },
+            {
+                "id": "60",
+                "nome": "caprese",
+                "descricao": "Salada Caprese. Uma salada italiana simples e deliciosa, com fatias de tomate, queijo mussarela fresco, folhas de manjericão e temperada com azeite de oliva e vinagre balsâmico. Uma combinação leve e saborosa!",
+                "valor": "18,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/salada_caprese.jpg"
+            },
+            {
+                "id": "61",
+                "nome": "Waldorf",
+                "descricao": "Salada Waldorf. Uma salada sofisticada, com alface, maçã, aipo, nozes, uvas passas e maionese. Uma combinação única de sabores e texturas!",
+                "valor": "19,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/salada_waldorf.jpg"
+            },
+            {
+                "id": "62",
+                "nome": "Cobb",
+                "descricao": "Salada Cobb. Uma salada completa e deliciosa, com alface, frango grelhado, bacon crocante, ovos cozidos, queijo, abacate e tomate. Uma explosão de sabores!",
+                "valor": "21,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/salada_cobb.jpg"
+            },
+            {
+                "id": "63",
+                "nome": "Cezar-com-Frango",
+                "descricao": "Salada Caesar com Frango. Uma variação da clássica salada caesar, acrescida de tiras de frango grelhado suculento. Uma opção completa e saborosa!",
+                "valor": "22,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/salada_caesar_frango.jpg"
+            },
+            {
+                "id": "64",
+                "nome": "Salada-de-Quinoa",
+                "descricao": "Salada de Quinoa. Uma salada saudável e nutritiva, com quinoa, pepino, tomate, cebola roxa, hortelã e temperada com limão e azeite de oliva. Uma opção leve e deliciosa!",
+                "valor": "20,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/salada_quinoa.jpg"
+            },
+            {
+                "id": "65",
+                "nome": "Salada-Nicoise",
+                "descricao": "Salada Nicoise. Uma salada francesa clássica, com atum, batatas, ovos cozidos, tomate, vagem, azeitonas e alcaparras. Uma combinação rica e saborosa!",
+                "valor": "23,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/salada_nicoise.jpg"
+            },
+            {
+                "id": "66",
+                "nome": "Salada-de-Frutas",
+                "descricao": "Salada de Frutas. Uma opção refrescante e deliciosa, com uma seleção de frutas frescas da estação. Uma explosão de sabores e vitaminas!",
+                "valor": "17,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/salada_frutas.jpg"
+            }
+        ],
+        "sopas": [
+            {
+                "id": "67",
+                "nome": "tomate",
+                "descricao": "Sopa de tomate. Uma sopa deliciosa e reconfortante, feita com tomates maduros, cebola, alho e temperada com manjericão fresco. Perfeita para os dias mais frios!",
+                "valor": "15,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sopa_tomate.jpg"
+            },
+            {
+                "id": "68",
+                "nome": "cebola",
+                "descricao": "Sopa de cebola. Uma sopa clássica e saborosa, feita com cebolas caramelizadas, caldo de carne e queijo gratinado. Uma verdadeira delícia!",
+                "valor": "17,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sopa_cebola.jpg"
+            },
+            {
+                "id": "69",
+                "nome": "legumes",
+                "descricao": "Sopa de legumes. Uma sopa leve e saudável, feita com uma seleção de legumes frescos cozidos em caldo de legumes. Uma opção nutritiva e saborosa!",
+                "valor": "16,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sopa_legumes.jpg"
+            },
+            {
+                "id": "70",
+                "nome": "Creme-de-Aspargos",
+                "descricao": "Creme de Aspargos. Um creme delicado e saboroso, feito com aspargos frescos, cebola, alho e creme de leite. Uma opção refinada e deliciosa!",
+                "valor": "18,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sopa_creme_aspargos.jpg"
+            },
+            {
+                "id": "71",
+                "nome": "Sopa-de-Ervilha",
+                "descricao": "Sopa de Ervilha. Uma sopa clássica e reconfortante, feita com ervilhas verdes, cebola, alho e temperada com hortelã. Uma explosão de sabor!",
+                "valor": "17,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sopa_ervilha.jpg"
+            },
+            {
+                "id": "72",
+                "nome": "Caldo-Verde",
+                "descricao": "Caldo Verde. Uma sopa tradicional portuguesa, com caldo de batata, couve-galega e linguiça defumada. Uma combinação única e saborosa!",
+                "valor": "19,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sopa_caldo_verde.jpg"
+            },
+            {
+                "id": "73",
+                "nome": "Sopa-Miso",
+                "descricao": "Sopa Miso. Uma sopa japonesa tradicional, com caldo de missô, tofu, algas e cebolinha. Uma opção leve e cheia de sabor!",
+                "valor": "18,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sopa_miso.jpg"
+            },
+            {
+                "id": "74",
+                "nome": "Creme-de-Cogumelos",
+                "descricao": "Creme de Cogumelos. Um creme requintado e saboroso, feito com uma seleção de cogumelos frescos, cebola, alho e creme de leite. Uma combinação perfeita!",
+                "valor": "20,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sopa_creme_cogumelos.jpg"
+            },
+            {
+                "id": "75",
+                "nome": "Sopa-de-Camarão",
+                "descricao": "Sopa de Camarão. Uma sopa sofisticada e deliciosa, feita com camarões suculentos, caldo de peixe, tomate, cebola e temperada com salsinha. Uma explosão de sabores!",
+                "valor": "22,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sopa_camarao.jpg"
+            }
+        ]
+    },
+    "sobremesa": {
+        "bolos": [
+            {
+                "id": "76",
+                "nome": "chocolate",
+                "descricao": "Bolo de chocolate. Um delicioso bolo de chocolate feito com cacau de alta qualidade e coberto com uma irresistível ganache. Perfeito para os amantes de chocolate!",
+                "valor": "12,00",
+                "medida": "fatia",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/bolo_chocolate.jpg"
+            },
+            {
+                "id": "77",
+                "nome": "morango",
+                "descricao": "Bolo de morango. Um bolo leve e saboroso, recheado com generosos pedaços de morango fresco e coberto com chantilly. Uma verdadeira delícia!",
+                "valor": "13,00",
+                "medida": "fatia",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/bolo_morango.jpg"
+            },
+            {
+                "id": "78",
+                "nome": "cenoura",
+                "descricao": "Bolo de cenoura. O clássico bolo de cenoura com cobertura de chocolate, macio e molhadinho. Uma opção perfeita para qualquer ocasião!",
+                "valor": "11,00",
+                "medida": "fatia",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/bolo_cenoura.jpg"
+            },
+            {
+                "id": "79",
+                "nome": "Red-Velvet",
+                "descricao": "Bolo Red Velvet. Um bolo vermelho vibrante e aveludado, com uma delicada combinação de sabores. Uma verdadeira obra-prima!",
+                "valor": "14,00",
+                "medida": "fatia",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/bolo_red_velvet.jpg"
+            },
+            {
+                "id": "80",
+                "nome": "Bolo-de-Coco",
+                "descricao": "Bolo de Coco. Um bolo fofinho e saboroso, com pedacinhos de coco queimado e uma leve calda de coco. Uma experiência tropical!",
+                "valor": "12,00",
+                "medida": "fatia",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/bolo_coco.jpg"
+            },
+            {
+                "id": "81",
+                "nome": "Bolo-de-Fuba",
+                "descricao": "Bolo de Fubá. Um bolo simples e reconfortante, com o delicioso sabor do fubá. Perfeito para acompanhar um café quentinho!",
+                "valor": "11,00",
+                "medida": "fatia",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/bolo_fuba.jpg"
+            },
+            {
+                "id": "82",
+                "nome": "Bolo-de-Amendoim",
+                "descricao": "Bolo de Amendoim. Um bolo irresistível, feito com uma generosa quantidade de amendoim triturado. Para os amantes desse saboroso ingrediente!",
+                "valor": "13,00",
+                "medida": "fatia",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/bolo_amendoim.jpg"
+            },
+            {
+                "id": "83",
+                "nome": "Bolo-de-Laranja",
+                "descricao": "Bolo de Laranja. Um bolo cítrico e refrescante, feito com suco de laranja fresco e raspas da casca. Uma explosão de sabor!",
+                "valor": "12,00",
+                "medida": "fatia",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/bolo_laranja.jpg"
+            },
+            {
+                "id": "84",
+                "nome": "Bolo-de-Limao",
+                "descricao": "Bolo de Limão. Um bolo suave e leve, com o sabor marcante do limão. Perfeito para quem gosta de sabores cítricos!",
+                "valor": "13,00",
+                "medida": "fatia",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/bolo_limao.jpg"
+            }
+        ],
+        "sorvetes": [
+            {
+                "id": "85",
+                "nome": "baunilha",
+                "descricao": "Sorvete de baunilha. Um sorvete clássico e delicioso, feito com favas de baunilha natural. Perfeito para acompanhar qualquer sobremesa!",
+                "valor": "8,00",
+                "medida": "bola",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sorvete_baunilha.jpg"
+            },
+            {
+                "id": "86",
+                "nome": "chocolate",
+                "descricao": "Sorvete de chocolate. Um sorvete cremoso e intenso, feito com chocolate belga de alta qualidade. Para os amantes de chocolate!",
+                "valor": "8,00",
+                "medida": "bola",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sorvete_chocolate.jpg"
+            },
+            {
+                "id": "87",
+                "nome": "morango",
+                "descricao": "Sorvete de morango. Um sorvete feito com morangos frescos e suculentos. O sabor perfeito para os dias quentes!",
+                "valor": "8,00",
+                "medida": "bola",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sorvete_morango.jpg"
+            },
+            {
+                "id": "88",
+                "nome": "Creme",
+                "descricao": "Sorvete de creme. Um sorvete suave e versátil, ideal para acompanhar qualquer sobremesa ou comer puro.",
+                "valor": "8,00",
+                "medida": "bola",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sorvete_creme.jpg"
+            },
+            {
+                "id": "89",
+                "nome": "Menta",
+                "descricao": "Sorvete de menta. Um sorvete refrescante e saboroso, com o irresistível sabor da menta.",
+                "valor": "8,00",
+                "medida": "bola",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sorvete_menta.jpg"
+            },
+            {
+                "id": "90",
+                "nome": "Pistache",
+                "descricao": "Sorvete de pistache. Um sorvete cremoso com o delicioso sabor do pistache. Perfeito para os apreciadores dessa saborosa castanha!",
+                "valor": "9,00",
+                "medida": "bola",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sorvete_pistache.jpg"
+            },
+            {
+                "id": "91",
+                "nome": "Coco",
+                "descricao": "Sorvete de coco. Um sorvete tropical e refrescante, com o sabor inconfundível do coco.",
+                "valor": "8,00",
+                "medida": "bola",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sorvete_coco.jpg"
+            },
+            {
+                "id": "92",
+                "nome": "Avela",
+                "descricao": "Sorvete de avelã. Um sorvete cremoso e irresistível, com o sabor marcante da avelã.",
+                "valor": "9,00",
+                "medida": "bola",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sorvete_avela.jpg"
+            },
+            {
+                "id": "93",
+                "nome": "Manga",
+                "descricao": "Sorvete de manga. Um sorvete tropical e saboroso, feito com mangas frescas e maduras.",
+                "valor": "8,00",
+                "medida": "bola",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/sorvete_manga.jpg"
+            }
+        ],
+        "frutas": [
+            {
+                "id": "94",
+                "nome": "maca",
+                "descricao": "Maçã. Uma fruta fresca e suculenta, perfeita para saciar a vontade de algo doce.",
+                "valor": "3,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/fruta_maca.jpg"
+            },
+            {
+                "id": "95",
+                "nome": "banana",
+                "descricao": "Banana. Uma fruta versátil e nutritiva, que pode ser consumida pura ou utilizada em diversas receitas.",
+                "valor": "2,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/fruta_banana.jpg"
+            },
+            {
+                "id": "96",
+                "nome": "manga",
+                "descricao": "Manga. Uma fruta tropical e suculenta, com um sabor doce e refrescante.",
+                "valor": "4,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/fruta_manga.jpg"
+            },
+            {
+                "id": "97",
+                "nome": "Kiwi",
+                "descricao": "Kiwi. Uma fruta exótica e cheia de nutrientes, com um sabor levemente ácido.",
+                "valor": "3,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/fruta_kiwi.jpg"
+            },
+            {
+                "id": "98",
+                "nome": "Pera",
+                "descricao": "Pera. Uma fruta suculenta e saborosa, com uma textura macia e agradável.",
+                "valor": "3,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/fruta_pera.jpg"
+            },
+            {
+                "id": "99",
+                "nome": "Melancia",
+                "descricao": "Melancia. Uma fruta refrescante e hidratante, perfeita para os dias quentes.",
+                "valor": "5,00",
+                "medida": "fatia",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/fruta_melancia.jpg"
+            },
+            {
+                "id": "100",
+                "nome": "Amora",
+                "descricao": "Amora. Uma fruta pequena e deliciosa, cheia de antioxidantes e vitaminas.",
+                "valor": "4,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/fruta_amora.jpg"
+            },
+            {
+                "id": "101",
+                "nome": "Framboesa",
+                "descricao": "Framboesa. Uma fruta saborosa e versátil, perfeita para compor sobremesas e saladas.",
+                "valor": "4,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/fruta_framboesa.jpg"
+            },
+            {
+                "id": "102",
+                "nome": "Carambola",
+                "descricao": "Carambola. Uma fruta exótica e decorativa, com um sabor levemente adocicado.",
+                "valor": "4,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/fruta_carambola.jpg"
+            }
+        ],
+        "pudins": [
+            {
+                "id": "103",
+                "nome": "leite",
+                "descricao": "Pudim de leite. Um clássico e delicioso pudim de leite, feito com ingredientes de alta qualidade e muito carinho. Perfeito para adoçar o seu dia!",
+                "valor": "8,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pudim_leite.jpg"
+            },
+            {
+                "id": "104",
+                "nome": "chocolate",
+                "descricao": "Pudim de chocolate. Uma irresistível combinação de pudim com sabor intenso de chocolate. Um verdadeiro prazer para os amantes de chocolate!",
+                "valor": "9,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pudim_chocolate.jpg"
+            },
+            {
+                "id": "105",
+                "nome": "Pudim-de-Leite-Condensado",
+                "descricao": "Pudim de Leite Condensado. Uma deliciosa variação do pudim tradicional, com o irresistível sabor do leite condensado. Uma tentação dos deuses!",
+                "valor": "8,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pudim_leite_condensado.jpg"
+            },
+            {
+                "id": "106",
+                "nome": "Pudim-de-Tapioca",
+                "descricao": "Pudim de Tapioca. Uma opção surpreendente e saborosa para os amantes de tapioca. A textura e o sabor únicos da tapioca em um delicioso pudim!",
+                "valor": "9,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pudim_tapioca.jpg"
+            },
+            {
+                "id": "107",
+                "nome": "Pudim-de-Maria-Mole",
+                "descricao": "Pudim de Maria Mole. Leve e aerado, o pudim de maria mole é uma verdadeira nuvem de sabor. Delicie-se com essa delicadeza!",
+                "valor": "8,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pudim_maria_mole.jpg"
+            },
+            {
+                "id": "108",
+                "nome": "Pudim-de-Abacaxi",
+                "descricao": "Pudim de Abacaxi. Uma combinação refrescante do pudim tradicional com o sabor tropical do abacaxi. Surpreenda-se com essa explosão de sabor!",
+                "valor": "8,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pudim_abacaxi.jpg"
+            },
+            {
+                "id": "109",
+                "nome": "Pudim-de-Coco",
+                "descricao": "Pudim de Coco. Para os apaixonados por coco, esse pudim é simplesmente divino. O sabor marcante do coco em uma sobremesa irresistível!",
+                "valor": "8,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pudim_coco.jpg"
+            },
+            {
+                "id": "110",
+                "nome": "Pudim-de-Doce-de-Leite",
+                "descricao": "Pudim de Doce de Leite. Uma verdadeira tentação para os amantes de doce de leite. Esse pudim é puro sabor e cremosidade!",
+                "valor": "9,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/pudim_doce_leite.jpg"
+            }
+        ],
+        "cookies": [
+            {
+                "id": "111",
+                "nome": "gotas-de-chocolate",
+                "descricao": "Cookie de gotas de chocolate. Deliciosos cookies recheados com generosas gotas de chocolate derretido. Uma explosão de sabor em cada mordida!",
+                "valor": "3,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cookie_gotas_chocolate.jpg"
+            },
+            {
+                "id": "112",
+                "nome": "aveia-e-passas",
+                "descricao": "Cookie de aveia e passas. Uma opção mais saudável e cheia de sabor. Esses cookies são preparados com aveia integral e suculentas passas!",
+                "valor": "2,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cookie_aveia_passas.jpg"
+            },
+            {
+                "id": "113",
+                "nome": "castanhas",
+                "descricao": "Cookie de castanhas. Um cookie crocante e saboroso, feito com pedaços de castanhas que dão um toque especial a cada mordida!",
+                "valor": "3,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cookie_castanhas.jpg"
+            },
+            {
+                "id": "114",
+                "nome": "Cookies-de-Nozes",
+                "descricao": "Cookie de Nozes. Esses cookies são simplesmente divinos, feitos com nozes selecionadas que deixam cada pedacinho ainda mais gostoso!",
+                "valor": "3,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cookie_nozes.jpg"
+            },
+            {
+                "id": "115",
+                "nome": "Cookies-de-Chocolate-Branco",
+                "descricao": "Cookie de Chocolate Branco. Para quem adora uma doçura diferente, esses cookies são feitos com delicioso chocolate branco em cada pedacinho!",
+                "valor": "3,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cookie_chocolate_branco.jpg"
+            },
+            {
+                "id": "116",
+                "nome": "Cookies-de-Caramelo",
+                "descricao": "Cookie de Caramelo. Uma combinação perfeita de cookies com o sabor marcante do caramelo. Uma experiência única para o seu paladar!",
+                "valor": "3,00",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cookie_caramelo.jpg"
+            },
+            {
+                "id": "117",
+                "nome": "Cookies-de-Manteiga-de-Amendoim",
+                "descricao": "Cookie de Manteiga de Amendoim. Para os amantes de amendoim, esses cookies são uma verdadeira tentação. O sabor da manteiga de amendoim é incomparável!",
+                "valor": "3,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cookie_manteiga_amendoim.jpg"
+            },
+            {
+                "id": "118",
+                "nome": "Cookies-de-Laranja",
+                "descricao": "Cookie de Laranja. Uma opção refrescante e saborosa, esses cookies têm um delicioso sabor de laranja que vai te conquistar!",
+                "valor": "2,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cookie_laranja.jpg"
+            },
+            {
+                "id": "119",
+                "nome": "Cookies-de-Amendoas",
+                "descricao": "Cookie de Amêndoas. Feitos com amêndoas crocantes, esses cookies são uma verdadeira delícia para os amantes de amêndoas!",
+                "valor": "3,50",
+                "medida": "unidade",
+                "imagem": "https://github.com/Squad-Projects-Brothers/ravinRestaurantProject/tree/main/img/products/cookie_amendoas.jpg"
+            }
+        ]
+    }
+}
