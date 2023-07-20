@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu perfil</title>
+
+</head>
+<header>
+    <style>
+        img {
+            width: 50px;
+            width: 50px;
+        }
+    </style>
+</header>
+<main>
+    <nav>
+        <div id="menuid">
+
+        </div>
+    </nav>
+    <div>
+        <button onclick="pegarItens()">aqui</button>
+    </div>
+</main>
+<script>
+    function pegarItens() {
+        const url = "http://localhost/ravin/server-itens.php";
+        fetch(url)
+            .then((dados) => {
+                return dados.json();
+            })
+            .then((data) => {
+                montadorHtml(data);
+            });
+
+    }
+    function montadorHtml(itensMenu) {
+        const divInitial = document.getElementById("menuid");
+        var textHtml;
+        for (itensMenu of itensMenu) {
+            textHtml += `<div class="${itensMenu.id}">
+                            <div class="img">
+                                <p>${itensMenu.id}</p>
+                                <img src="${itensMenu.imagem}"></img>
+                                <input type="number" name="qtd-${itensMenu.id}">
+                                <a href="#" onclick='fazerPedido(${JSON.stringify(itensMenu)})'>pedir de novo</a>
+                            </div>
+                        </div>`;
+            divInitial.innerHTML = textHtml;
+        }
+    }
+    function fazerPedido(item) {
+        const itensClassName = document.getElementsByName(`qtd-${item.id}`);
+        const qtdItem = itensClassName[0].value;
+        item ['quantidade'] = qtdItem;
+        //enviar pedido pra web
+        salvarUltimoPedido(item);
+        console.log(item);
+        console.log(qtdItem);
+        console.log(itensClassName[0]);
+    }
+    function salvarUltimoPedido(pedido){
+        localStorage.setItem("lastOrder", JSON.stringify(pedido))
+
+    }
+</script>
+
+</html>
